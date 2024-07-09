@@ -1,50 +1,103 @@
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: "Azeret Mono", monospace;
 }
 
-nav ul{
+/* nav section styles */
+nav ul {
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
 
-nav ul li{
+nav ul li {
     list-style-type: none;
 }
 
-nav{
+nav {
     max-width: 1440px;
-    height: 70px;
+    height: 128px;
     margin: 0 auto;
-    border: 1px solid #000;
+    /* border: 1px solid #000; */
     margin-top: 50px;
 }
 
-.name{
+.name {
     color: rgb(13, 19, 33);
-font-size: 28px;
-font-weight: 800;
-line-height: 33px;
-margin-left: 50px;
-margin-top: 20px;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 33px;
+    margin-left: 150px;
+    margin-top: 50px;
 }
 
-nav > ul> li> button{
+nav>ul>li>button {
     border: 1px solid rgb(13, 19, 33);
-border-radius: 8px;
-opacity: 0.8;
-width: 228px;
-height: 58px;
-font-size: 20px;
-font-weight: 600;
-line-height: 23px;
+    border-radius: 8px;
+    opacity: 0.8;
+    width: 228px;
+    height: 58px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    margin-right: 150px;
+    margin-top: 35px;
 }
 
+
+/* Hero section styles */
+.hero-container {
+    max-width: 1440px;
+    height: 652px;
+    /* border: 1px solid #000; */
+    margin: 0 auto;
+    background-image: url("./assets/Hero-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-image-text-container {
+    width: 998px;
+    height: 652px;
+    margin: 0 auto;
+    /* border: 1px solid #000; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.hero-image-text-container h1 {
+    color: rgb(13, 19, 33);
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 68px;
+    text-align: center;
+}
+
+.hero-image-text-container p {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+}
+
+.hero-image-text-container button {
+    border-radius: 8px;
+
+    background: rgb(13, 19, 33);
+    width: 208px;
+    height: 66px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    text-align: center;
+}
