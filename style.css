@@ -363,3 +363,103 @@ nav>ul>li>button {
     text-align: left;
     text-decoration-line: underline;
 }
+
+/* "next target" styles */
+
+
+/* form style starts */
+.form-container {
+    width: 1140px;
+    height: 314px;
+    margin: 0 auto;
+    /* border: 1px solid #000; */
+    border-radius: 16px;
+    background-image: url("./assets/handshake.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+    margin-bottom: 80px;
+}
+
+.form-text-container {
+    width: 1044px;
+    height: 186px;
+    /* border: 1px solid white; */
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.form-text-container h1 {
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.form-text-container p {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    opacity: 0.7;
+    margin-bottom: 40px;
+}
+
+.form-text-container form {
+    text-align: center;
+}
+
+.form-text-container input[type="email"] {
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    width: 548px;
+    height: 57px;
+}
+
+.form-text-container input::placeholder {
+    color: rgba(13, 19, 33, 0.4);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    padding: 15px;
+}
+
+.form-text-container input[type="submit"] {
+    width: 120px;
+    height: 58px;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.705);
+    background: rgb(255, 255, 255);
+}
+
+.footer-container {
+    max-width: 1440px;
+    height: 100px;
+    /* border: 1px solid #000; */
+    margin: 0 auto;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.social-media-icons a {
+    margin-left: 10px;
+}
+
+.footer-container p {
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+}
