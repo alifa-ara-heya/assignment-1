@@ -50,6 +50,24 @@ nav>ul>li>button {
     margin-top: 35px;
 }
 
+/* shared styles through whole page */
+.paragraph {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    opacity: 0.7;
+}
+
+.heading {
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    text-align: center;
+    margin-bottom: 24px;
+}
 
 /* Hero section styles */
 .hero-background {
@@ -82,14 +100,7 @@ nav>ul>li>button {
     text-align: center;
 }
 
-.hero-image-text-container p {
-    color: rgb(13, 19, 33);
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 26px;
-    text-align: center;
-    opacity: 0.7;
-}
+
 
 .hero-image-text-container button {
     border-radius: 8px;
@@ -135,24 +146,6 @@ nav>ul>li>button {
     flex-direction: column;
     align-items: center;
     margin-top: 120px;
-}
-
-.why-web-dev-text h1 {
-    color: rgb(13, 19, 33);
-    font-size: 32px;
-    font-weight: 800;
-    line-height: 37px;
-    text-align: center;
-    margin-bottom: 24px;
-}
-
-.why-web-dev-text p {
-    color: rgb(13, 19, 33);
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 26px;
-    text-align: center;
-    opacity: 0.7;
 }
 
 .reason-1-container {
@@ -262,7 +255,7 @@ nav>ul>li>button {
     height: 777px;
     /* border: 1px solid #000; */
     margin: 0 auto;
-    margin-bottom: 149px;
+    margin-bottom: 181px;
 }
 
 .my-inspiration-text {
@@ -272,32 +265,101 @@ nav>ul>li>button {
     margin-bottom: 48px;
 }
 
-.my-inspiration-text h2 {
-    color: rgb(13, 19, 33);
-    font-size: 32px;
-    font-weight: 800;
-    line-height: 37px;
-    text-align: center;
-    margin-bottom: 24px;
-}
-
-.my-inspiration-text p {
-    opacity: 0.7;
-    color: rgb(13, 19, 33);
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 26px;
-    text-align: center;
-}
-
 .my-inspiration-video {
     width: 1140px;
     height: 614px;
     text-align: center;
     border: 1px solid rgba(13, 19, 33, 0.2);
-border-radius: 16px;
+    border-radius: 16px;
 }
 
-.my-inspiration-video iframe{
+.my-inspiration-video iframe {
     margin-top: 25px;
+    border-radius: 16px;
+}
+
+/* "my current target" styles */
+.current-target-cards {
+    max-width: 1140px;
+    height: 300px;
+    /* border: 1px solid #000; */
+    margin: 0 auto;
+    margin-bottom: 111px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.current-target-text {
+    width: 852px;
+    height: 115px;
+    /* border: 1px solid #000; */
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 48px;
+}
+
+.html-card,
+.css-card,
+.javascript-card {
+    width: 364px;
+    height: 300px;
+    border-radius: 16px;
+}
+
+.html-card {
+    background: rgba(255, 76, 30, 0.05);
+}
+
+.css-card {
+    background: rgba(0, 76, 232, 0.05);
+}
+
+.javascript-card {
+    background: rgba(255, 223, 0, 0.05);
+}
+
+.html-text,
+.css-text,
+.javascript-text {
+    width: 284px;
+    height: 220px;
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.current-target-cards img {
+    width: 56px;
+    /* height: 56px; */
+}
+
+.card-paragraph {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    opacity: 0.7;
+}
+
+.card-heading {
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    text-align: left;
+}
+
+.card-link {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    text-align: left;
+    text-decoration-line: underline;
 }
