@@ -447,7 +447,7 @@ padding: 40px;
     text-align: center;
 }
 
-.form-text-container input[type="email"] {
+.form-text-container input[type="text"] {
     border: 1px solid rgba(13, 19, 33, 0.15);
     border-radius: 8px;
     background: rgb(255, 255, 255);
@@ -459,7 +459,6 @@ padding: 40px;
     color: rgba(13, 19, 33, 0.4);
     font-size: 16px;
     font-weight: 400;
-    line-height: 19px;
     padding: 15px;
 }
 
