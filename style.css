@@ -78,7 +78,7 @@ nav>ul>li>button {
     background-image: url("./assets/Hero-bg.png");
     background-repeat: no-repeat;
     background-size: cover;
-    margin-bottom: 74px;
+    margin-bottom: 50px;
 }
 
 .hero-image-text-container {
@@ -99,8 +99,6 @@ nav>ul>li>button {
     line-height: 68px;
     text-align: center;
 }
-
-
 
 .hero-image-text-container button {
     border-radius: 8px;
@@ -123,6 +121,7 @@ nav>ul>li>button {
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.02);
     margin-bottom: 88px;
+    margin-top: -74px;
 
 }
 
@@ -332,7 +331,10 @@ nav>ul>li>button {
     flex-direction: column;
     justify-content: space-between;
 }
-
+.javascript-text img{
+    margin-top: -10px;
+    margin-bottom: 15px;
+}
 .current-target-cards img {
     width: 56px;
     /* height: 56px; */
@@ -345,6 +347,7 @@ nav>ul>li>button {
     line-height: 26px;
     text-align: left;
     opacity: 0.7;
+    margin-bottom: 24px;
 }
 
 .card-heading {
@@ -353,6 +356,7 @@ nav>ul>li>button {
     font-weight: 800;
     line-height: 36px;
     text-align: left;
+    margin-bottom: 8px;
 }
 
 .card-link {
@@ -365,6 +369,35 @@ nav>ul>li>button {
 }
 
 /* "next target" styles */
+.next-target-container{
+    max-width: 1140px;
+    height:868px;
+    /* border: 1px solid #000; */
+    margin: 0 auto;
+    margin-bottom: 44px;
+}
+
+.next-target-heading{
+    margin-bottom: 48px;
+}
+
+.react, .node, .mongodb{
+    width: 1140px;
+height: 219px;
+border: 1px solid rgba(13, 19, 33, 0.15);
+border-radius: 16px;
+background: rgb(255, 255, 255);
+margin-bottom: 24px;
+display: flex;
+flex-direction: row;
+gap: 24px;
+padding: 40px;
+}
+
+.react-text{
+   
+}
+
 
 
 /* form style starts */
